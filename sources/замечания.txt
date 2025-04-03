@@ -1,0 +1,8 @@
+<picture class="price__info_picture">
+                <!-- ! <source srcset="./assets/images/4.avif" type="image/avif"> -->
+                <!-- ! <source srcset="./assets/images/4.webp" type="image/webp"> -->
+                <img src="./assets/images/4.jpg" alt="Горящая свеча">
+            </picture>
+
+
+
