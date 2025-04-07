@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --margin-bottom-for-title: 40px;
+}
+
+@font-face {
+    font-family: 'forText';
+    src: url('../assets/fonts/RobotoFlex-Regular.woff') format('woff2'),
+         url('../assets/fonts/GreatVibes-Regular.woff2') format('woff');
+}
+
+@font-face {
+    font-family: 'forTitle';
+    src: url('../assets/fonts/GreatVibes-Regular.woff') format('woff2'),
+         url('../assets/fonts/GreatVibes-Regular.woff2') format('woff');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+h1,h2,h3,h4,h5,h6 {    
+    font-family: "forTitle", serif;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    font-size: 50px;
+}
+picture {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+    font-family: "forText", serif;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+li {
+    font-family: "forText", serif;
+    font-size: 16px;
+    padding: 0px 0px 10px 0px;
+    margin-left: 16px;
+
+}
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+.span__fire {
+    color: #d50a0a;
+    font-family: "forTitle", serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 350px;
+}
+
+.header__background {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+
+.header__title {
+    font-family: "forTitle", serif;
+    font-weight: 400;
+    font-size: 180px;
+    margin-top: 20%;
+    color: #ffffff;
+}
+
+.header__menu {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu__link {
+    font-family: "forTitle", serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #ffffff;
+    transition-duration: 0.5s;
+}
+
+.menu__link:hover {
+    font-size: 50px;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.main {
+    margin-top: 200px;
+}
+
+
+/*price*/
+.price {
+    background-image: url("../assets/images/background-1.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+.price__title {
+    padding-top: 60px;
+    color: #ffffff;
+    margin-bottom: var(--margin-bottom-for-title);
+}
+.price__blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+.price__block {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff52;
+    width: 597px;
+    margin-bottom: 10px;
+    align-items: baseline;
+}
+.block__text {
+    color: #ffffff;
+    margin: 10px 0px 10px 10px;
+}
+.block__title {
+    color: #ffffff;
+    margin: 10px 0px 10px 10px;
+}
+.block__price {
+    color: #ffffff;
+    margin: 10px 0px 10px 10px;
+}
+.block__button {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    text-transform: uppercase;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px 10px 0px;
+    transition: 1s;
+}
+.block__button:hover {
+    background-color: #ffffff87;
+    color: #000000;
+}
+
+
+/*specialist*/
+.specialist__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.specialist__title {
+    margin-bottom: var(--margin-bottom-for-title);
+}
+.info__story {
+    width: 700px;
+}
+
+/*history*/
+
+.history__info {
+    display: flex;
+    justify-content: space-between;
+}
+.info__block {
+    width: 550px;
+}
+.info__title {
+    margin: 20px;
+}
+.history__text-signature {
+    font-family: "forTitle", serif;
+    font-size: 30px;
+    margin: 15px 0px 0px 0px;
+}
+
+/*reviews*/
+.reviews__title {
+
+}
+
+
+/*indications*/
+.indications__title {
+    margin: 0px 0px 10px 0px;
+}
+.indications__info {
+    display: flex;
+    justify-content: space-between;
+}
+.indications__block {
+    width: 550px;
+}
+
+/*action*/
+.action__title {
+    margin: 0px 0px 10px 0px;
+}
+.action__info {
+    display: flex;
+    justify-content: space-between;
+}
+.action__block {
+    width: 550px;
+}
