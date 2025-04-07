@@ -28,20 +28,18 @@
                 <li><a class="menu__link" href="#specialist">Мастер</a></li>
                 <li><a class="menu__link" href="#reviews">Отзывы</a></li>
                 <li><a class="menu__link" href="#price">Прайс-лист</a></li>
-                <li><a class="menu__link" href="#booking">Запись</a></li>
+                <li><a class="menu__link" href="/reservation.html">Запись</a></li>
             </ul>
         </nav>
     </header>
 
-    
-    <main class="main">
+    <!-- Корректно ли будет использовать вместо дивов(например, action__block, indications__block или info__block) тег article? -->
 
-        
+    <main class="main">
         <section class="history container" id="history">
             <h2 class="history__title">Истоки Омовения огнём</h2>
         
             <div class="history__info">
-        
                 <div class="info__block">
                     <h3 class="info__title">История</h3>
                     <p class="history__text">Дипломатические миссии к татаро-монгольскому хану были для русских князей частой
@@ -62,8 +60,6 @@
                         храмах и сопровождается специальными ритуалами и обрядами, в то время как в северных штатах это может
                         быть частью повседневной жизни обычного верующего.</p>
                 </div>
-        
-        
         
                 <div class="info__block">
                     <h3 class="info__title">Комментарий автора</h3>
@@ -116,13 +112,6 @@
                 </div>
             </div>
         </section>
-
-        
-        <section class="reviews container" id="reviews">
-            <h2 class="reviews__title">Отзывы</h2>
-
-        </section>
-
        
         <section class="price" id="price">
             <div class="container">
@@ -133,23 +122,17 @@
         
                     <article class="price__block">
                         <h3 class="block__title">Индвидуальные омовения</h3>
-        
                         <p class="block__text">kdkkdfk</p>
-        
                         <p class="block__price">20 мин. / 5 000 ₽</p>
                         <p class="block__price">40 мин. / 10 000 ₽</p>
-        
-                        <a href="" class="block__button" type="button">Записаться</a>
+                        <a href="reservation.html" class="block__button" type="button">Записаться</a>
                     </article>
 
                     <article class="price__block">
                         <h3 class="block__title">Групповые омовения</h3>
-        
                         <p class="block__text">pfpfpfpfp</p>
                         <p class="block__text">[Оставьте заявку, если вам интересен данный формат]</p>
-        
                         <p class="block__price">30 мин. / 3 500 ₽</p>
-        
                         <a href="reservation.html" class="block__button" type="button">Оставить заявку</a>
                     </article>
         
@@ -158,100 +141,108 @@
 
         <section class="indications container">
             <h2 class="indications__title">Показания</h2>
-            
-
             <div class="indications__info">
 
                 <div class="indications__block">
-                    <h3 class="indications__title">Кому показана процедура</h3>
+                    <h3 class="indications__subtitle">Кому показана процедура</h3>
                     <p class="indications__text">Практически каждому человеку в современных реалиях стоит пройти курс, но больше всего сеансы необходимы людям с такими проблемами как:</p>
-                    <ul>
-                        <li>дегенеративные процессы в суставах;</li>
-                        <li>расстройства нервной системы;</li>
-                        <li>хроническая усталость;</li>
-                        <li>сильный стресс;</li>
-                        <li>нарушения сна;</li>
-                        <li>гормональные сбои;</li>
-                        <li>набор лишнего веса;</li>
-                        <li>спазмы мышц;</li>
-                        <li>повышенное/пониженное давление;</li>
-                        <li>патологии ЖКТ;</li>
-                        <li>переломы, растяжения, прочие травмы;</li>
-                        <li>болезни печени, почек, желчного пузыря;</li>
-                        <li>частые простуды;</li>
+                    <ul class="indications__ul">
+                        <li class="indications__li">дегенеративные процессы в суставах;</li>
+                        <li class="indications__li">расстройства нервной системы;</li>
+                        <li class="indications__li">хроническая усталость;</li>
+                        <li class="indications__li">сильный стресс;</li>
+                        <li class="indications__li">нарушения сна;</li>
+                        <li class="indications__li">гормональные сбои;</li>
+                        <li class="indications__li">набор лишнего веса;</li>
+                        <li class="indications__li">спазмы мышц;</li>
+                        <li class="indications__li">повышенное/пониженное давление;</li>
+                        <li class="indications__li">патологии ЖКТ;</li>
+                        <li class="indications__li">переломы, растяжения, прочие травмы;</li>
+                        <li class="indications__li">болезни печени, почек, желчного пузыря;</li>
+                        <li class="indications__li">частые простуды;</li>
                     </ul>
                 </div>
 
                 <div class="indications__block">
-                <h3 class="indications__title">Какие лечит болезни</h3>
-                <p class="indications__text">Какие болезни лечит Омовение огнём и какие болезни помогает предотвратить? Процедура эффективна при лечении и профилактике:
-                    </p>
-                    <ul>
-                        <li>остеохондроза;</li>
-                        <li>бронхиальной астмы;</li>
-                        <li>панических атак, повышенной тревожности;</li>
-                        <li>ожирения;</li>
-                        <li>иммунодефицитов;
-                        <li>бесплодия;</li>
-                        <li>инфаркта, инсульта;</li>
-                        <li>циститов, пиелонефритов;</li>
-                        <li>гастрита и язвенной болезни;</li>
-                        <li>бессонницы;</li>
-                        <li>травм позвоночника;</li>
-                        <li>энуреза;</li>
-                        <li>мочекаменной болезни;</li>
-                        <li>анемии;</li>
-                        <li>мигреней и многих других патологий.</li>
+                <h3 class="indications__subtitle">Какие лечит болезни</h3>
+                <p class="indications__text">Какие болезни лечит Омовение <span class="span__fire">огнём</span> и какие болезни помогает предотвратить? Процедура эффективна при лечении и профилактике:</p>
+                    <ul class="indications__ul">
+                        <li class="indications__li">остеохондроза;</li>
+                        <li class="indications__li">бронхиальной астмы;</li>
+                        <li class="indications__li">панических атак, повышенной тревожности;</li>
+                        <li class="indications__li">ожирения;</li>
+                        <li class="indications__li">иммунодефицитов;
+                        <li class="indications__li">бесплодия;</li>
+                        <li class="indications__li">инфаркта, инсульта;</li>
+                        <li class="indications__li">циститов, пиелонефритов;</li>
+                        <li class="indications__li">гастрита и язвенной болезни;</li>
+                        <li class="indications__li">бессонницы;</li>
+                        <li class="indications__li">травм позвоночника;</li>
+                        <li class="indications__li">энуреза;</li>
+                        <li class="indications__li">мочекаменной болезни;</li>
+                        <li class="indications__li">анемии;</li>
+                        <li class="indications__li">мигреней и многих других патологий.</li>
                     </ul>
                 </div>
-                
             </div>
         </section>
 
         <section class="action container">
             <h2 class="action__title">Результаты</h2>
-        
             <div class="action__info">
-        
                 <div class="action__block">
-                <h3 class="">Омовение <span class="span__fire">огнём</span> позволяет:</h3>
-                <ul class="action__list">
-                    <li>стать бодрее;</li>
-                    <li>обрести душевную гармонию;</li>
-                    <li>расслабиться и отдохнуть;</li>
-                    <li>активизировать регенерационные процессы;</li>
-                    <li>аккумулировать внутренние ресурсы;</li>
-                    <li>улучшить эластичность суставов и сухожилий;</li>
-                    <li>повысить стрессоустойчивость;</li>
-                    <li>обеспечить омоложение;</li>
-                    <li>справиться с проявлениями хронических заболеваний;</li>
-                    <li>в любом возрасте оставаться здоровыми и красивыми.</li>
+                <h3 class="action__subtitle">Омовение <span class="span__fire_title">огнём</span> позволяет:</h3>
+                <ul class="action__ul">
+                    <li class="action__li">стать бодрее;</li>
+                    <li class="action__li">обрести душевную гармонию;</li>
+                    <li class="action__li">расслабиться и отдохнуть;</li>
+                    <li class="action__li">активизировать регенерационные процессы;</li>
+                    <li class="action__li">аккумулировать внутренние ресурсы;</li>
+                    <li class="action__li">улучшить эластичность суставов и сухожилий;</li>
+                    <li class="action__li">повысить стрессоустойчивость;</li>
+                    <li class="action__li">обеспечить омоложение;</li>
+                    <li class="action__li">справиться с проявлениями хронических заболеваний;</li>
+                    <li class="action__li">в любом возрасте оставаться здоровыми и красивыми.</li>
                 </ul>
                 </div>
-                
-        
                 <div class="action__block">
-                <h3 class="">Результаты после сеанса</h3>
-                <p class="">Омовение огнём позволяет обеспечить целый комплекс положительных изменений: </p>
+                <h3 class="action__subtitle">Результаты после сеанса</h3>
+                <p class="">Омовение <span class="span__fire">огнём</span> позволяет обеспечить целый комплекс положительных изменений: </p>
                 <ul class="action__list">
-                    <li>добиться омоложения кожи, замедлить процесс старения;</li>
-                    <li>повысить тонус организма;</li>
-                    <li>справиться с зажатостью и внутренним напряжением;</li>
-                    <li>обрести свободу движений;</li>
-                    <li>нормализовать сон;</li>
-                    <li>ослабить или полностью убрать проявления неврологических расстройств;</li>
-                    <li>укрепить иммунитет;</li>
-                    <li>справиться с перенапряжением после активных занятий спортом;</li>
-                    <li>раскрыть энергетические каналы;</li>
-                    <li>снизить риск развития дегенеративных процессов в суставах и связках;</li>
-                    <li>ускорить реабилитацию после тяжелых заболеваний. </li>
+                    <li class="action__li">добиться омоложения кожи, замедлить процесс старения;</li>
+                    <li class="action__li">повысить тонус организма;</li>
+                    <li class="action__li">справиться с зажатостью и внутренним напряжением;</li>
+                    <li class="action__li">обрести свободу движений;</li>
+                    <li class="action__li">нормализовать сон;</li>
+                    <li class="action__li">ослабить или полностью убрать проявления неврологических расстройств;</li>
+                    <li class="action__li">укрепить иммунитет;</li>
+                    <li class="action__li">справиться с перенапряжением после активных занятий спортом;</li>
+                    <li class="action__li">раскрыть энергетические каналы;</li>
+                    <li class="action__li">снизить риск развития дегенеративных процессов в суставах и связках;</li>
+                    <li class="action__li">ускорить реабилитацию после тяжелых заболеваний. </li>
                 </ul>
                 </div>
             </div>
-        
-        
-        
         </section>
+
+        <section class="reviews" id="reviews">
+            <div class="container">
+            <h2 class="reviews__title">Отзывы</h2>
+                <div class="reviews__block">
+                    <article class="reviews__feedback">
+
+                        <p class="feedback__name"></p>
+                        <p class="feedback__text"></p>
+                    </article>
+
+                </div>
+
+
+            </div>
+        </section>
+
+
+
     </main>
 
     <span class="span__fire">огонь.</span>

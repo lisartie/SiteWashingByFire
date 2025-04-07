@@ -60,6 +60,12 @@ a {
 .span__fire {
     color: #d50a0a;
     font-family: "forTitle", serif;
+    font-size: 25px;
+}
+.span__fire_title {
+    color: #d50a0a;
+    font-family: "forTitle", serif;
+    font-size: 50px;
 }
 
 .header {
@@ -205,7 +211,17 @@ a {
 }
 
 /*reviews*/
+.reviews {
+    background-image: url("../assets/images/background-2.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
 .reviews__title {
+    padding-top: 60px;
+    color: #ffffff;
+    margin-bottom: var(--margin-bottom-for-title);
 
 }
 
@@ -232,4 +248,76 @@ a {
 }
 .action__block {
     width: 550px;
+}
+
+
+
+/*форма обратной связи*/
+.reservation {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.reservation__background {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+} 
+.reservation__title {
+    margin: 150px 0px 50px 0px;
+}
+.reservation__form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+}
+.reservation__input {
+    margin-bottom: 15px;
+    background-color: #0000007a;
+    border: none;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    font-family: "forText", serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+.reservation__button {
+    margin: 20px 0px;
+    padding: 15px 20px 15px 20px;
+    background-color: #ffffff7a;
+    font-family: "forTitle", serif;
+    font-size: 28px;
+    transition: 1s;
+}
+.reservation__button:hover {
+    background-color: #ffffff7a;
+    font-size: 32px;
+}
+.reservation__label {
+    margin-bottom: 15px;
+    font-family: "forText", serif;
+    font-size: 14px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.reservation__link {
+    font-family: "forText", serif;
+}
+
+
+
+@media (max-width: 1199px) {
+    
+}
+
+@media (max-width: 1199px) {
+    
 }
