@@ -16,6 +16,11 @@
             </video>
         </div>
         <h1 class="reservation__title">Запись на омовение огнём</h1>
+
+        <!-- 
+            ! TODO: Форма не читаемая, все внимание на себя забирает видео. Попробуй добавить фон для формы
+            ! Также добавь на эту страницу меню, чтобы спокойно можно было бы вернуться назад. Плюс я бы еще добавил страницу с контактными данными.
+        -->
         <form action="/index.html" class="reservation__form">
             <input type="text" class="reservation__input" placeholder="Ваше имя" required>
             <input type="text" class="reservation__input" placeholder="Номер телефона" required>
@@ -24,6 +29,7 @@
             <input type="text" class="reservation__input" placeholder="Ваш запрос">
             <label for="accept" class="reservation__label">
                 <input type="checkbox" id="accept" required>
+                <!-- ! TODO: Раз вставляешь такую фразу, то нужно сделать отдельную страницу под персональные данные. Сгенерировать текст для нее можно тут https://tilda.cc/ru/privacy-generator/ -->
                 Я соглашаюсь с обработкой своих персональных данных
             </label>
             <button class="reservation__button">Записаться</button>
