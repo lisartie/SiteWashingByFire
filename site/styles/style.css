@@ -32,6 +32,14 @@
     font-size: 35px;
     color: #ffffff;
 }
+
+.menu__link {
+    display: inline-block;
+    font-family: "forTitle", serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #ffffff;
+}
 .navigation__li {
     transition: 2s;
 }
@@ -64,7 +72,9 @@
     font-size: 50px;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 20px;}
+.menu__link:hover {
+   transform: scale(1.2);
 }
 .history__text {
     font-family: 'forText', sans-serif;
@@ -342,6 +352,77 @@
 }
 .reviews__text {
     font-family: 'forText', sans-serif;
+}
+.indications__info {
+    display: flex;
+    justify-content: space-between;
+}
+.indications__block {
+    width: 550px;
+}
+
+/*action*/
+.action__title {
+    margin: 0px 0px 10px 0px;
+}
+.action__info {
+    display: flex;
+    justify-content: space-between;
+}
+.action__block {
+    width: 550px;
+}
+/*форма обратной связи*/
+.reservation {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.reservation__background {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+} 
+.reservation__title {
+    margin: 150px 0px 50px 0px;
+}
+.reservation__form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+}
+.reservation__input {
+    margin-bottom: 15px;
+    background-color: #0000007a;
+    border: none;
+    text-align: center;
+    padding: 15px 20px 15px 20px;
+    font-family: "forText", serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+.reservation__button {
+    margin: 20px 0px;
+    padding: 15px 20px 15px 20px;
+    background-color: #ffffff7a;
+    font-family: "forTitle", serif;
+    font-size: 28px;
+    transition: 1s;
+}
+.reservation__button:hover {
+    background-color: #ffffff7a;
+    font-size: 32px;
+}
+.reservation__label {
+    margin-bottom: 15px;
+    font-family: "forText", serif;
     font-size: 14px;
     margin: 10px 0px;
 }
