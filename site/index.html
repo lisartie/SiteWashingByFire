@@ -1,197 +1,140 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/global.css">
 
     <title>Омовение огнём</title>
 </head>
-
 <body>
-
     <header class="header">
-        <div class="header__background">
-
-            <video autoplay muted loop class="header__background_video">
-                <source src="./assets/videos/fire.mov" type="video/webm">
+        <div class="background">
+            <video autoplay muted loop class="background__video">
+                <source src="./assets/videos/fire.mov" type="video/webm" class="background__source">
             </video>
         </div>
-        
-        <h1 class="header__title">Омовение огнём</h1>
-    
-        <nav class="header__navigation">
-            <ul class="header__menu menu">
-                <li><a class="menu__link" href="#history">Истоки</a></li>
-                <li><a class="menu__link" href="#specialist">Мастер</a></li>
-                <li><a class="menu__link" href="#reviews">Отзывы</a></li>
-                <li><a class="menu__link" href="#price">Прайс-лист</a></li>
-                <li><a class="menu__link" href="/reservation.html">Запись</a></li>
-            </ul>
-        </nav>
+        <div class="heading">
+            <h1 class="heading__title">Омовение огнём</h1>
+            <nav class="navigation">
+                <ul class="navigation__menu">
+                    <li class="navigation__li"><a class="navigation__link" href="#history">Истоки</a></li>
+                    <li class="navigation__li"><a class="navigation__link" href="#specialist">Мастер</a></li>
+                    <li class="navigation__li"><a class="navigation__link" href="#reviews">Отзывы</a></li>
+                    <li class="navigation__li"><a class="navigation__link" href="#price">Прайс-лист</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-
-    <!-- Корректно ли будет использовать вместо дивов(например, action__block, indications__block или info__block) тег article? -->
-
     <main class="main">
-        <section class="history container" id="history">
-            <h2 class="history__title">Истоки Омовения огнём</h2>
-        
-            <div class="history__info">
-                <div class="info__block">
-                    <h3 class="info__title">История</h3>
-                    <p class="history__text">Дипломатические миссии к татаро-монгольскому хану были для русских князей частой
-                        практикой — таким образом можно было получить ярлык на княжение. Перед непосредственной встречей
-                        православные путники должны были совершить унизительный языческий ритуал — омовение <span class="span__fire">огнем</span> — пройти меж
-                        двух <span class="span__fire">огней</span> для очищения от зла и поклониться идолам.</p>
-                    <p class="history__text">За отказ от прохождения обряда князь Михаил Черниговский был казнён в Орде в 1246
-                        году.</p>
-                    <p class="history__text">Известно, что первые упоминания омовения <span class="span__fire">огнем</span> в Индии относятся к древнейшим
-                        ведическим текстам – Ригведе, написанной примерно в 1500 году до нашей эры. В этих текстах описывается
-                        ритуал, включающий омовение <span class="span__fire">огнем</span> во время священного обряда – ягьи, посвященном богу Агни.</p>
-                    <p class="history__text">С течением времени омовение <span class="span__fire">огнем</span> приобрело еще большую значимость в индийской
-                        культуре. Оно стало центральным элементом многих ритуалов и обрядов, проводимых в храмах и домах
-                        верующих. Омовение <span class="span__fire">огнем</span> считается очищающим и способствующим достижению духовной гармонии и внутреннего
-                        просветления.</p>
-                    <p class="history__text">В современной Индии омовение <span class="span__fire">огнем</span> все еще практикуется во многих регионах и имеет
-                        свои особенности в каждой части страны. Например, в южных штатах Индии омовение <span class="span__fire">огнем</span> проводится в
-                        храмах и сопровождается специальными ритуалами и обрядами, в то время как в северных штатах это может
-                        быть частью повседневной жизни обычного верующего.</p>
-                </div>
-        
-                <div class="info__block">
-                    <h3 class="info__title">Комментарий автора</h3>
-                    <p class="history__text">Омовение <span class="span__fire">Огнём</span> - это моя авторская методика, которая проявилась в тот момент, когда
-                        боль в коленных суставах уже стала для меня привычным спутником. Потратив буквально по три минуты на
-                        каждое
-                        колено я не только успокоил боль, но, как выяснилось на следующий день, полностью от неё избавился.
-                        Поразившись оказанному эффекту, связался с другом и на пару с ним мы начали исследовать что же такое я
-                        изобрёл. Проведя много часов в интернете в поисках аналогов нашёл некоторое сходство с тибетским
-                        массажем
-                        <span class="span__fire">огнём</span>, шаманскими техниками взаимодействия со стихией, а так же индийским методом очищения <span class="span__fire">огнём</span>. По
-                        сути у
-                        меня получился многофункциональный инструмент управления реальностью.</p>
-                    <p class="history__text"><span class="span__fire">Огонь</span> считается самой привлекательной стихией для очищения от негативных энергий, а
-                        посиделки у костра, помимо согревания, приносят чувтсво умиротворения и погружения в диалог с планетой.
-                        Во
-                        многих культурах <span class="span__fire">огонь</span> считается голосом планеты.</p>
-                    <p class="history__text">Однако, в практике Омовения <span class="span__fire">огнём</span> чистка энергетики идёт далеко не на первом месте.
-                        В
-                        первую очередь идёт глубокий прогрев как верхних тканей, так и внутренних органов, вплоть до костного
-                        мозга.
-                        Во время практики подогреваемый находдится в горизонтальном положении, что позволяет сохранить в
-                        безопасности волосяной покров так как пламя всегда стремиться вверх.</p>
-                    <p class="history__text-signature">(c) Антон Панов</p>
-                </div>
-        
-        
-            </div>
-        
-        </section>
-
-        
-        <section class="specialist container" id="specialist">
-            <h2 class="specialist__title">Мастер Омовения</h2>
-
-            <div class="specialist__info">
-                <picture class="info__picture">
-                    <img src="./assets/images/Master.webp" alt="Фотография специалиста" type="image/webp">
-                </picture>
-
-                <div class="info__story">
-                    <p class="story__text">Добрый день, меня зовут Мария, мне 24 года, я из города Ступино.</p>
-                    <p class="story__text">В 2020 году окончила медицинский колледж "Сестринское дело". </p>
-                    <p class="story__text">В 2022 году прошла профессиональную переподготовку по медицинскому массажу. </p>
-                    <p class="story__text">Работала в сосудистой реанимации медсестрой 3 года, далее в психоневрологическом интернате 1 год. Параллельно всем работам, занималась массажем. В 2024 году ухожу из медицины в массаж. Также в 2024 году в мою практику с массажем пришёл <span class="span__fire">огонь</span>.</p>
-                    <p class="story__text">В моей деятельности появились комплексы в виде "Омовение огнём+общий массаж (массаж всего тела). Огонь - мощная стихия. Это проводник, который помогает увидеть то, на что долгое время закрыты глаза, по ряду причин и обстоятельств.</p>
-                    <p class="story__text">И это не только снятие мышечных спазмов, психоэмоционального напряжения, лечение хронических заболеваний, но и нереально приятное ощущение тепла по всему телу. </p>
-                    <p class="story__text">Перед сеансом стоит чётко сформулировать запрос. </p>
-
-                </div>
+        <section class="history" id="history">
+            <div class="history__picture"></div>
+            <div class="history__content">
+                <h2 class="history__title">Истоки Омовения огнём</h2>
+                <p class="history__text">Дипломатические миссии к татаро-монгольскому хану были для русских князей частой
+                    практикой — таким образом можно было получить ярлык на княжение. Перед непосредственной встречей
+                    православные путники должны были совершить унизительный языческий ритуал — омовение <span class="span__fire">огнем</span> — пройти меж
+                    двух <span class="span__fire">огней</span> для очищения от зла и поклониться идолам.</p>
+                <p class="history__text">За отказ от прохождения обряда князь Михаил Черниговский был казнён в Орде в 1246
+                    году.</p>
+                <p class="history__text">Известно, что первые упоминания омовения <span class="span__fire">огнем</span> в Индии относятся к древнейшим
+                    ведическим текстам – Ригведе, написанной примерно в 1500 году до нашей эры. В этих текстах описывается
+                    ритуал, включающий омовение <span class="span__fire">огнем</span> во время священного обряда – ягьи, посвященном богу Агни.</p>
+                <p class="history__text">С течением времени омовение <span class="span__fire">огнем</span> приобрело еще большую значимость в индийской
+                    культуре. Оно стало центральным элементом многих ритуалов и обрядов, проводимых в храмах и домах
+                    верующих. Омовение <span class="span__fire">огнем</span> считается очищающим и способствующим достижению духовной гармонии и внутреннего
+                    просветления.</p>
+                <p class="history__text">В современной Индии омовение <span class="span__fire">огнем</span> все еще практикуется во многих регионах и имеет
+                    свои особенности в каждой части страны. Например, в южных штатах Индии омовение <span class="span__fire">огнем</span> проводится в
+                    храмах и сопровождается специальными ритуалами и обрядами, в то время как в северных штатах это может
+                    быть частью повседневной жизни обычного верующего.</p>
             </div>
         </section>
-       
+        <section class="master" id="specialist">
+            <picture class="master__picture">
+                <img src="assets/images/master.jpg" class="master__img" alt="">
+            </picture>
+            <div class="master__content">
+                <h2 class="master__title">Мастер Омовения</h2>
+                <p class="master__text">Меня зовут Мария, мне 24 года, я из города Ступино.</p>
+                <p class="master__text">В 2020 году окончила медицинский колледж "Сестринское дело". В 2022 году прошла профессиональную переподготовку по медицинскому массажу.</p>
+                <p class="master__text">Работала в сосудистой реанимации медсестрой 3 года, далее в психоневрологическом интернате 1 год. Параллельно всем работам, занималась массажем. В 2024 году ухожу из медицины в массаж. Также в 2024 году в мою практику с массажем пришёл <span class="span__fire">огонь</span>.</p>
+                <p class="master__text">В моей деятельности появились комплексы в виде "Омовение огнём+общий массаж (массаж всего тела). Огонь - мощная стихия. Это проводник, который помогает увидеть то, на что долгое время закрыты глаза, по ряду причин и обстоятельств.</p>
+                <p class="master__text">И это не только снятие мышечных спазмов, психоэмоционального напряжения, лечение хронических заболеваний, но и нереально приятное ощущение тепла по всему телу. </p>
+                <p class="master__text">Перед сеансом стоит чётко сформулировать запрос.</p>
+            </div>
+        </section>
         <section class="price" id="price">
-            <div class="container">
-        
-                <h2 class="price__title">Форматы работы с клиентами</h2>
-        
-                <div class="price__blocks">
-        
-                    <article class="price__block">
-                        <h3 class="block__title">Индвидуальные омовения</h3>
-                        <p class="block__text">kdkkdfk</p>
-                        <p class="block__price">20 мин. / 5 000 ₽</p>
-                        <p class="block__price">40 мин. / 10 000 ₽</p>
-                        <a href="reservation.html" class="block__button" type="button">Записаться</a>
-                    </article>
-
-                    <article class="price__block">
-                        <h3 class="block__title">Групповые омовения</h3>
-                        <p class="block__text">pfpfpfpfp</p>
-                        <p class="block__text">[Оставьте заявку, если вам интересен данный формат]</p>
-                        <p class="block__price">30 мин. / 3 500 ₽</p>
-                        <a href="reservation.html" class="block__button" type="button">Оставить заявку</a>
-                    </article>
-        
-                </div>
-        </section>
-
-        <section class="indications container">
-            <h2 class="indications__title">Показания</h2>
-            <div class="indications__info">
-
-                <div class="indications__block">
-                    <h3 class="indications__subtitle">Кому показана процедура</h3>
-                    <p class="indications__text">Практически каждому человеку в современных реалиях стоит пройти курс, но больше всего сеансы необходимы людям с такими проблемами как:</p>
-                    <ul class="indications__ul">
-                        <li class="indications__li">дегенеративные процессы в суставах;</li>
-                        <li class="indications__li">расстройства нервной системы;</li>
-                        <li class="indications__li">хроническая усталость;</li>
-                        <li class="indications__li">сильный стресс;</li>
-                        <li class="indications__li">нарушения сна;</li>
-                        <li class="indications__li">гормональные сбои;</li>
-                        <li class="indications__li">набор лишнего веса;</li>
-                        <li class="indications__li">спазмы мышц;</li>
-                        <li class="indications__li">повышенное/пониженное давление;</li>
-                        <li class="indications__li">патологии ЖКТ;</li>
-                        <li class="indications__li">переломы, растяжения, прочие травмы;</li>
-                        <li class="indications__li">болезни печени, почек, желчного пузыря;</li>
-                        <li class="indications__li">частые простуды;</li>
-                    </ul>
-                </div>
-
-                <div class="indications__block">
-                <h3 class="indications__subtitle">Какие лечит болезни</h3>
-                <p class="indications__text">Какие болезни лечит Омовение <span class="span__fire">огнём</span> и какие болезни помогает предотвратить? Процедура эффективна при лечении и профилактике:</p>
-                    <ul class="indications__ul">
-                        <li class="indications__li">остеохондроза;</li>
-                        <li class="indications__li">бронхиальной астмы;</li>
-                        <li class="indications__li">панических атак, повышенной тревожности;</li>
-                        <li class="indications__li">ожирения;</li>
-                        <li class="indications__li">иммунодефицитов;
-                        <li class="indications__li">бесплодия;</li>
-                        <li class="indications__li">инфаркта, инсульта;</li>
-                        <li class="indications__li">циститов, пиелонефритов;</li>
-                        <li class="indications__li">гастрита и язвенной болезни;</li>
-                        <li class="indications__li">бессонницы;</li>
-                        <li class="indications__li">травм позвоночника;</li>
-                        <li class="indications__li">энуреза;</li>
-                        <li class="indications__li">мочекаменной болезни;</li>
-                        <li class="indications__li">анемии;</li>
-                        <li class="indications__li">мигреней и многих других патологий.</li>
-                    </ul>
-                </div>
+            <h2 class="price__heading">Форматы работы с клиентами</h2>
+            <div class="price__content">
+                <article class="price__card">
+                    <h3 class="price__title">Индивидуальные омовения</h3>
+                    <p class="price__description">только Вы и Мастер</p>
+                    <p class="price__price">20 мин. / 5 000 ₽</p>
+                    <p class="price__price">40 мин. / 10 000 ₽</p>
+                    <button class="price__button price__button_booking">Записаться</button>
+                </article>
+                <article class="price__card">
+                    <h3 class="price__title">Групповые омовения</h3>
+                    <p class="price__description">группа от 3 до 20 человек</p>
+                    <p class="price__price">[Оставьте заявку, если вам интересен данный формат работы]</p>
+                    <p class="price__price">30 мин. / 3 500 ₽</p>
+                    <button class="price__button price__button_consultation">Консультация</button>
+                </article>
             </div>
         </section>
-
-        <section class="action container">
-            <h2 class="action__title">Результаты</h2>
-            <div class="action__info">
-                <div class="action__block">
-                <h3 class="action__subtitle">Омовение <span class="span__fire_title">огнём</span> позволяет:</h3>
+        <section class="medicine">
+            <div class="medicine__picture"></div>
+            <div class="medicine__content">
+                <h2 class="medicine__title">Кому показана процедура</h2>
+                    <p class="medicine__text">Практически каждому человеку в современных реалиях стоит пройти курс, но больше всего сеансы необходимы людям с такими проблемами как:</p>
+                    <ul class="medicine__ul">
+                        <li class="medicine__li">дегенеративные процессы в суставах;</li>
+                        <li class="medicine__li">расстройства нервной системы;</li>
+                        <li class="medicine__li">хроническая усталость;</li>
+                        <li class="medicine__li">сильный стресс;</li>
+                        <li class="medicine__li">нарушения сна;</li>
+                        <li class="medicine__li">гормональные сбои;</li>
+                        <li class="medicine__li">набор лишнего веса;</li>
+                        <li class="medicine__li">спазмы мышц;</li>
+                        <li class="medicine__li">повышенное/пониженное давление;</li>
+                        <li class="medicine__li">патологии ЖКТ;</li>
+                        <li class="medicine__li">переломы, растяжения, прочие травмы;</li>
+                        <li class="medicine__li">болезни печени, почек, желчного пузыря;</li>
+                        <li class="medicine__li">частые простуды;</li>
+                    </ul>
+            </div>
+        </section>
+        <section class="treatment">
+            <div class="treatment__content">
+                <h2 class="treatment__title">Какие лечит болезни</h2>
+                <p class="treatment__text">Какие болезни лечит Омовение <span class="span__fire">огнём</span> и какие болезни помогает предотвратить? Процедура эффективна при лечении и профилактике:</p>
+                    <ul class="treatment__ul">
+                        <li class="treatment__li">остеохондроза;</li>
+                        <li class="treatment__li">бронхиальной астмы;</li>
+                        <li class="treatment__li">панических атак, повышенной тревожности;</li>
+                        <li class="treatment__li">ожирения;</li>
+                        <li class="treatment__li">иммунодефицитов;
+                        <li class="treatment__li">бесплодия;</li>
+                        <li class="treatment__li">инфаркта, инсульта;</li>
+                        <li class="treatment__li">циститов, пиелонефритов;</li>
+                        <li class="treatment__li">гастрита и язвенной болезни;</li>
+                        <li class="treatment__li">бессонницы;</li>
+                        <li class="treatment__li">травм позвоночника;</li>
+                        <li class="treatment__li">энуреза;</li>
+                        <li class="treatment__li">мочекаменной болезни;</li>
+                        <li class="treatment__li">анемии;</li>
+                        <li class="treatment__li">мигреней и многих других патологий.</li>
+                    </ul>
+            </div>
+            <div class="treatment__picture"></div>
+        </section>
+        <section class="action">
+            <div class="action__picture"></div>
+            <div class="action__content">
+                <h2 class="action__title">Омовение <span class="span__fire_title">огнём</span> позволяет:</h2>
                 <ul class="action__ul">
                     <li class="action__li">стать бодрее;</li>
                     <li class="action__li">обрести душевную гармонию;</li>
@@ -204,52 +147,124 @@
                     <li class="action__li">справиться с проявлениями хронических заболеваний;</li>
                     <li class="action__li">в любом возрасте оставаться здоровыми и красивыми.</li>
                 </ul>
-                </div>
-                <div class="action__block">
-                <h3 class="action__subtitle">Результаты после сеанса</h3>
-                <p class="">Омовение <span class="span__fire">огнём</span> позволяет обеспечить целый комплекс положительных изменений: </p>
-                <ul class="action__list">
-                    <li class="action__li">добиться омоложения кожи, замедлить процесс старения;</li>
-                    <li class="action__li">повысить тонус организма;</li>
-                    <li class="action__li">справиться с зажатостью и внутренним напряжением;</li>
-                    <li class="action__li">обрести свободу движений;</li>
-                    <li class="action__li">нормализовать сон;</li>
-                    <li class="action__li">ослабить или полностью убрать проявления неврологических расстройств;</li>
-                    <li class="action__li">укрепить иммунитет;</li>
-                    <li class="action__li">справиться с перенапряжением после активных занятий спортом;</li>
-                    <li class="action__li">раскрыть энергетические каналы;</li>
-                    <li class="action__li">снизить риск развития дегенеративных процессов в суставах и связках;</li>
-                    <li class="action__li">ускорить реабилитацию после тяжелых заболеваний. </li>
-                </ul>
-                </div>
             </div>
+        </section>
+        <section class="results">
+            <div class="results__content">
+                <h2 class="results__title">Результаты после сеанса</h2>
+                <p class="results__text">Омовение <span class="span__fire">огнём</span> позволяет обеспечить целый комплекс положительных изменений: </p>
+                <ul class="results__ul">
+                    <li class="results__li">добиться омоложения кожи, замедлить процесс старения;</li>
+                    <li class="results__li">повысить тонус организма;</li>
+                    <li class="results__li">справиться с зажатостью и внутренним напряжением;</li>
+                    <li class="results__li">обрести свободу движений;</li>
+                    <li class="results__li">нормализовать сон;</li>
+                    <li class="results__li">ослабить или полностью убрать проявления неврологических расстройств;</li>
+                    <li class="results__li">укрепить иммунитет;</li>
+                    <li class="results__li">справиться с перенапряжением после активных занятий спортом;</li>
+                    <li class="results__li">раскрыть энергетические каналы;</li>
+                    <li class="results__li">снизить риск развития дегенеративных процессов в суставах и связках;</li>
+                    <li class="results__li">ускорить реабилитацию после тяжелых заболеваний. </li>
+                </ul>
+            </div>
+            <div class="results__picture"></div>
         </section>
 
         <section class="reviews" id="reviews">
-            <div class="container">
-            <h2 class="reviews__title">Отзывы</h2>
-                <div class="reviews__block">
-                    <article class="reviews__feedback">
-
-                        <p class="feedback__name"></p>
-                        <p class="feedback__text"></p>
-                    </article>
-
-                </div>
-
-
+            <div class="reviews__content">
+                <article class="reviews__card">
+                    <p class="reviews__hero">Александра Сукова</p>
+                    <p class="reviews__text">Сеанс омосвения огнём превзошёл все мои ожидания! Атмосфера была невероятно уютной, а огонь создавал ощущение тепла и гармонии. Рекомендую всем, кто хочет расслабиться и зарядиться энергией!</p>
+                    <time class="reviews__date" datetime="2024-05-12">12 мая 2024</time>
+                </article>
+                <article class="reviews__card">
+                    <p class="reviews__hero">Алексей Нюнькин</p>
+                    <p class="reviews__text">Это был удивительный опыт! Огонь словно ожил, наполняя пространство магией. Я почувствовала себя частью чего-то большего. Очень рекомендую!</p>
+                    <time class="reviews__date" datetime="2024-05-12">12 мая 2024</time>
+                </article>
+                <article class="reviews__card">
+                    <p class="reviews__hero">Анна Двуликая</p>
+                    <p class="reviews__text">После сеанса я ощутила невероятную лёгкость и спокойствие. Огонь помог мне отпустить всё лишнее и сосредоточиться на главном. Спасибо за такую возможность!</p>
+                    <time class="reviews__date" datetime="2024-05-12">12 мая 2024</time>
+                </article>
+                <article class="reviews__card">
+                    <p class="reviews__hero">Дарья Собакова</p>
+                    <p class="reviews__text">Очень впечатляющий сеанс! Огонь завораживает, а его энергия наполняет душу. Это не просто ритуал, а настоящее путешествие в мир гармонии.</p>
+                    <time class="reviews__date" datetime="2024-05-12">12 мая 2024</time>
+                </article>
+                <article class="reviews__card">
+                    <p class="reviews__hero">Иван Великолепный</p>
+                    <p class="reviews__text">Я впервые участвовал в таком мероприятии, и это было потрясающе! Огонь создаёт уникальную атмосферу, которая помогает расслабиться и найти внутренний баланс.</p>
+                    <time class="reviews__date" datetime="2024-05-12">12 мая 2024</time>
+                </article>
+                <article class="reviews__card">
+                    <p class="reviews__hero">Эльвира Великодушнова</p>
+                    <p class="reviews__text">Сеанс оставил незабываемые впечатления. Огонь словно очистил мою душу, наполнив её светом и теплом. Обязательно приду ещё!</p>
+                    <time class="reviews__date" datetime="2024-05-12">12 мая 2024</time>
+                </article>
+                <article class="reviews__card">
+                    <p class="reviews__hero">Вячеслав Какнибудевский</p>
+                    <p class="reviews__text">Удивительный опыт трансформации! Решил попробовать очищение огнём после долгих раздумий, и это было правильное решение. Мастер создал особую энергетическую обстановку, каждый этап ритуала был продуман до мелочей. Во время процесса ощущала, как отпускаю старые обиды и страхи. После сеанса появилось чувство лёгкости и обновления. Теперь планирую посещать такие сеансы регулярно. Спасибо за потрясающий опыт!</p>
+                    <time class="reviews__date" datetime="2024-05-12">12 мая 2024</time>
+                </article>
+                <article class="reviews__card">
+                    <p class="reviews__hero">Анна Трудова</p>
+                    <p class="reviews__text">Потрясающий опыт! Посетила сеанс очищения огнём и осталась в полном восторге. Атмосфера была очень уютной и безопасной. Мастер провёл предварительную консультацию, объяснил все детали процесса. Во время ритуала чувствовала лёгкость и спокойствие. После сеанса появилось ощущение обновления и очищения. Рекомендую всем, кто хочет попробовать что-то новое и необычное!</p>
+                    <time class="reviews__date" datetime="2024-05-12">12 мая 2024</time>
+                </article>
             </div>
         </section>
 
-
-
+        <article class="booking__disabled">
+            <h2 class="booking__title">Запись</h2>
+            <form action="/index.html" class="booking__form">
+                <input type="text" class="booking__input" placeholder="Ваше имя" required>
+                <input type="text" class="booking__input" placeholder="Номер телефона" required>
+                <input type="email" class="booking__input" placeholder="Электронная почта">
+                <input type="text" class="booking__input" placeholder="Ник в telegram">
+                <input type="text" class="booking__input" placeholder="Ваш запрос">
+                <button class="booking__button">Записаться</button><label for="accept" class="booking__label">
+                    <input type="checkbox" id="accept" required>
+                    Я соглашаюсь с <a href="/persinal-data.html" class="booking__link_border">обработкой своих персональных данных</a>
+                </label>
+            </form>
+            <button href="#" class="booking__link" type="button">Вернуться к изучению</button>
+        </article>
+        <section class="author">
+            <div class="author__content">
+            <h2 class="author__title">Комментарий от автора</h2>
+            <p class="author__text">Омовение <span class="span__fire">Огнём</span> - это моя авторская методика, которая проявилась в тот момент, когда
+                боль в коленных суставах уже стала для меня привычным спутником. Потратив буквально по три минуты на
+                каждое
+                колено я не только успокоил боль, но, как выяснилось на следующий день, полностью от неё избавился.
+                Поразившись оказанному эффекту, связался с другом и на пару с ним мы начали исследовать что же такое я
+                изобрёл. Проведя много часов в интернете в поисках аналогов нашёл некоторое сходство с тибетским
+                массажем
+                <span class="span__fire">огнём</span>, шаманскими техниками взаимодействия со стихией, а так же индийским методом очищения <span class="span__fire">огнём</span>. По
+                сути у
+                меня получился многофункциональный инструмент управления реальностью.</p>
+            <p class="author__text"><span class="span__fire">Огонь</span> считается самой привлекательной стихией для очищения от негативных энергий, а
+                посиделки у костра, помимо согревания, приносят чувтсво умиротворения и погружения в диалог с планетой.
+                Во
+                многих культурах <span class="span__fire">огонь</span> считается голосом планеты.</p>
+            <p class="author__text">Однако, в практике Омовения <span class="span__fire">огнём</span> чистка энергетики идёт далеко не на первом месте.
+                В первую очередь идёт глубокий прогрев как верхних тканей, так и внутренних органов, вплоть до костного
+                мозга. Во время практики подогреваемый находдится в горизонтальном положении, что позволяет сохранить в
+                безопасности волосяной покров так как пламя всегда стремиться вверх.</p>
+            <p class="author__author">(c) Антон Панов</p>
+            </div>
+            <picture class="author__picture">
+                <img src="assets/images/author.jpg" class="author__img" alt="Фотография автора омовения огнём">
+            </picture>
+        </section>
     </main>
 
-    <span class="span__fire">огонь.</span>
+
+   
 
     <footer class="footer">
 
-    </footer>
+    </footer> 
 
     <script type="module" src="./scripts/app.js"></script>
 </body>

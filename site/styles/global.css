@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --container: 1300px;
+    --margin-bottom-for-title: 40px;
+}
+
+@font-face {
+    font-family: 'forText';
+    src: url('../assets/fonts/RobotoFlex-Regular.woff') format('woff2'),
+         url('../assets/fonts/GreatVibes-Regular.woff2') format('woff');
+}
+
+@font-face {
+    font-family: 'forTitle';
+    src: url('../assets/fonts/GreatVibes-Regular.woff') format('woff2'),
+         url('../assets/fonts/GreatVibes-Regular.woff2') format('woff');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+h1,h2,h3,h4,h5,h6 {    
+    margin: 0px;
+    padding: 0px;
+}
+picture {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+li {
+
+}
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
