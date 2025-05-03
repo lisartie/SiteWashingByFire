@@ -5,7 +5,27 @@
 
 :root {
     --container: 1300px;
-    --margin-bottom-for-title: 40px;
+    --container-big: 1000px;
+    --container-medium: 700px;
+    --container-small: 400px;
+    --margin-bottom-for-title: 40px auto;
+
+    --font-title: 'forTitle', sans-serif;
+    --font-text: 'forText', sans-serif;
+
+    --width-banner-desktop: 550px;
+    --height-banner-desktop: 400px;
+    --width-banner-big: 480px;
+    --height-banner-big: 500px;
+    --width-banner-medium: 300px;
+    --height-banner-medium: 600px;
+    --height-medicine-banner-medium: 500px;
+    --width-banner-small: 400px;
+    --height-banner-small: 200px;
+
+    --width-content-big: 480px;
+    --width-content-medium: 370px;
+    --width-content-small: 400px;
 }
 
 @font-face {
